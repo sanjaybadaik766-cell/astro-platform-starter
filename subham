@@ -1,0 +1,113 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FREE FIRE SOLO TOURNAMENT</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+    .header {
+      text-align: center;
+    }
+    .header h1 {
+      color: #d32f2f;
+      font-size: 24px;
+    }
+    .qr-section, .form-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+    }
+    .qr-section img {
+      width: 150px;
+      height: auto;
+      border-radius: 8px;
+    }
+    .form-section form {
+      flex: 1;
+      margin-left: 20px;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    input[type="text"], input[type="file"] {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #388e3c;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .whatsapp {
+      text-align: center;
+      margin-top: 20px;
+    }
+    .whatsapp a {
+      text-decoration: none;
+      color: white;
+      background: #25D366;
+      padding: 10px 15px;
+      border-radius: 5px;
+      display: inline-block;
+    }
+    .note {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #555;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>FREE FIRE SOLO TOURNAMENT</h1>
+    </div>
+    <div class="qr-section">
+      <img src="your-qr-code-image-link-here" alt="Payment QR Code">
+      <div class="form-section">
+        <form>
+          <label for="gameUID">Free Fire Game UID</label>
+          <input type="text" id="gameUID" name="gameUID" placeholder="Enter your Game UID" required><label for="paymentScreenshot">Upload Payment Screenshot</label>
+      <input type="file" id="paymentScreenshot" name="paymentScreenshot" accept="image/*" required>
+
+      <button type="submit">Register Now</button>
+    </form>
+  </div>
+</div>
+<div class="whatsapp">
+  <a href="https://whatsapp.com/channel/0029VbBEz3ZDuMRoU8E7b247" target="_blank">
+    📲 Join WhatsApp for Room ID & Password
+  </a>
+</div>
+<div class="note">
+  Entry Fee ₹50 per match. Room ID & Password will be shared on WhatsApp.
+</div>
+
+  </div>
+</body>
+</html>
